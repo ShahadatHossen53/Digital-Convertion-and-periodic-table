@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    /* background-image: url("img/img1.jpg"); */
+    
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text_dec a{
+      text-decoration: none;
+      
+  }
+  .text_dec{
+      padding-left: 50px;
+      /* text-shadow: 2px 2px 5px orange; */
+      color: orange;
+  }
+  .text_dec a h1:hover{
+      
+      color: #f3f3f3f6;
+      text-shadow: 2px 2px 5px rgb(255, 255, 255);
+      background-color: #3d0c6dec;
+      transition: 1s;
+  }
+  .bg_color{
+      background-color: #8a41d37a;
+      transition: 1s;
+     
+  }
+
+  .home_button a{
+      text-decoration: none;
+  }
+
+
+/* --------------------------------------------------- */
